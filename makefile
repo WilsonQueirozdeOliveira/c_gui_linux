@@ -15,3 +15,6 @@ ${PROG_1}: ${PROG_1}.c
 
 ${PROG_2}: ${PROG_2}.c
 	${CC} ${CFLAGS} -o ${PROG_2} ${PROG_2}.c ${LIBS}
+
+clean:
+	rm ${PROG_1} ${PROG_2}
